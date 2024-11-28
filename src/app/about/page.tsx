@@ -1,5 +1,3 @@
-import Container from "@/app/components/Container";
-import Layout from "@/app/components/layout/Layout";
 import { HeadingPageH1, HeadingPageH2 } from "@/app/components/ui/HeadingPage";
 import { Metadata } from "next";
 import Link from "next/link";
@@ -8,6 +6,8 @@ import { FaBootstrap, FaCss3, FaGithub, FaGitSquare, FaHtml5, FaNodeJs, FaReact 
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiTypescript } from "react-icons/si";
+import Layout from "../components/layout/Layout";
+import Container from "../components/Container";
 
 export const metadata: Metadata = {
   title: "Sap. | About",
