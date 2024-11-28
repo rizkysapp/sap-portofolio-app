@@ -43,7 +43,8 @@ const Form = () => {
     };
 
     const response = await fetch(endpoint, options);
-    // const resData = await response.json();
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    const resData = await response.json();
 
     setFormData(initialFromData);
     if (response.status === 200) {
