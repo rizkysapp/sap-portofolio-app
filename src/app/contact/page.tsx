@@ -2,7 +2,13 @@ import Container from "@/app/components/Container";
 import Form from "@/app/components/Form";
 import Layout from "@/app/components/layout/Layout";
 import { HeadingPageH1 } from "@/app/components/ui/HeadingPage";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "Sap | Contact",
+  description: "Website Portfolio Sap",
+};
 
 const Contact = () => {
   return (

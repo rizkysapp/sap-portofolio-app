@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         <nav>
           <ul className="flex-center sm:space-x-4 space-x-2">
-            {navlist.map((item, i) => (
+            {navlist?.map((item, i) => (
               <li key={i}>
                 <Link
                   className={`px-2 text-[15px] text-gray-700 py-2 ${item.path === param ? "link-underline-active link-underline-black" : "link-underline link-underline-black"}  `}

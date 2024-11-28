@@ -1,12 +1,18 @@
 import Container from "@/app/components/Container";
 import Layout from "@/app/components/layout/Layout";
 import { HeadingPageH1, HeadingPageH2 } from "@/app/components/ui/HeadingPage";
+import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
 import { FaBootstrap, FaCss3, FaGithub, FaGitSquare, FaHtml5, FaNodeJs, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiTypescript } from "react-icons/si";
+
+export const metadata: Metadata = {
+  title: "Sap | About",
+  description: "Website Portfolio Sap",
+};
 
 const skillsItem = [
   { name: "Html", icon: FaHtml5 },
@@ -54,7 +60,7 @@ const About = () => {
           <div className="sm:my-[4rem] my-8">
             <HeadingPageH2>Skills.</HeadingPageH2>
             <div className="sm:mt-8 mt-3 grid grid-rows-5 grid-flow-col gap-2 sm:gap-4 sm:space-y-3 space-y-2">
-              {skillsItem.map(({ name, icon: Icon }, i) => (
+              {skillsItem?.map(({ name, icon: Icon }, i) => (
                 <div key={i} className="flex-start gap-2">
                   <Icon className="text-center sm:text-xl text-sm font-medium" />
                   <span className="text-sm sm:text-lg font-normal sm:font-medium">{name}</span>

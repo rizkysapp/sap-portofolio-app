@@ -13,7 +13,7 @@ const linkSocials = [
 const Footer = () => {
   return (
     <div className="flex-start space-x-5">
-      {linkSocials.map(({ href, icon: Icon }, i) => (
+      {linkSocials?.map(({ href, icon: Icon }, i) => (
         <Link className={`text-gray-700 transition hover:text-gray-950`} key={i} href={href}>
           <Icon className="sm:text-[24px] text-[20px]" />
         </Link>
