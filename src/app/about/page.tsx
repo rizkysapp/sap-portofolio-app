@@ -60,7 +60,7 @@ const About = () => {
           <div className="sm:my-[4rem] my-8">
             <HeadingPageH2>Skills.</HeadingPageH2>
             <div className="sm:mt-8 mt-3 grid grid-rows-5 grid-flow-col gap-2 sm:gap-4 sm:space-y-3 space-y-2">
-              {skillsItem?.map(({ name, icon: Icon }, i) => (
+              {skillsItem.map(({ name, icon: Icon }, i) => (
                 <div key={i} className="flex-start gap-2">
                   <Icon className="text-center sm:text-xl text-sm font-medium" />
                   <span className="text-sm sm:text-lg font-normal sm:font-medium">{name}</span>
