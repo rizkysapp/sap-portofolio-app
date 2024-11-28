@@ -10,7 +10,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiTypescript } from "react-icons/si";
 
 export const metadata: Metadata = {
-  title: "Sap | About",
+  title: "Sap. | About",
   description: "Website Portfolio Sap",
 };
 
