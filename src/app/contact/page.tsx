@@ -1,9 +1,9 @@
-import Container from "@/app/components/Container";
-import Form from "@/app/components/Form";
-import Layout from "@/app/components/layout/Layout";
-import { HeadingPageH1 } from "@/app/components/ui/HeadingPage";
 import { Metadata } from "next";
 import React from "react";
+import Layout from "../components/layout/Layout";
+import Container from "../components/Container";
+import { HeadingPageH1 } from "../components/ui/HeadingPage";
+import Form from "../components/Form";
 
 export const metadata: Metadata = {
   title: "Sap. | Contact",

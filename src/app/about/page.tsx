@@ -1,4 +1,3 @@
-import { HeadingPageH1, HeadingPageH2 } from "@/app/components/ui/HeadingPage";
 import { Metadata } from "next";
 import Link from "next/link";
 import React from "react";
@@ -8,6 +7,7 @@ import { RiTailwindCssFill } from "react-icons/ri";
 import { SiExpress, SiJquery, SiMongodb, SiMysql, SiNextdotjs, SiTypescript } from "react-icons/si";
 import Layout from "../components/layout/Layout";
 import Container from "../components/Container";
+import { HeadingPageH1, HeadingPageH2 } from "../components/ui/HeadingPage";
 
 export const metadata: Metadata = {
   title: "Sap. | About",

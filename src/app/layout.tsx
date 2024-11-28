@@ -18,7 +18,7 @@ const josefin_Sans = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Sap. | Home",
+  title: "Sap | Home",
   description: "Website Portfolio Sap",
 };
 

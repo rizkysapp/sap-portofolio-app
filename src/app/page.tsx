@@ -1,8 +1,8 @@
-import Container from "@/app/components/Container";
-import Footer from "@/app/components/layout/footer/Footer";
-import Layout from "@/app/components/layout/Layout";
-import LinkBtn from "@/app/components/ui/LinkBtn";
 import { IoIosArrowRoundForward } from "react-icons/io";
+import Layout from "./components/layout/Layout";
+import Container from "./components/Container";
+import LinkBtn from "./components/ui/LinkBtn";
+import Footer from "./components/layout/footer/Footer";
 
 export default function Home() {
   return (
